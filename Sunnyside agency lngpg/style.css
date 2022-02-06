@@ -1,0 +1,142 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.flexy {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.flexy2 {
+  display: flex;
+  width: 45%;
+  padding: 2% 0%;
+  justify-content: space-around;
+}
+.top {
+  color: white;
+}
+.heading {
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  margin: 1%;
+}
+.side {
+  margin-left: 48%;
+  margin-bottom: 20%;
+  margin-top: 3%;
+}
+.inm {
+  background: url(../image-header.jpg);
+  background-size: 100% 100%;
+}
+.im {
+  max-width: 50%;
+}
+.inorder {
+  display: flex;
+  justify-content: end;
+}
+.text {
+  padding: 10%;
+}
+.reorder {
+  display: flex;
+}
+.learn-yellow {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+.learnpink {
+  text-decoration: underline;
+  text-decoration-color: pink;
+}
+.graphic {
+  background: url(../image-graphic-design.jpg);
+  background-size: 100% 100%;
+  max-width: 50%;
+}
+#imghead {
+  margin-top: 50%;
+  text-align: center;
+}
+#imgtext {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.photo {
+  background: url(../image-photography.jpg);
+  background-size: 100% 100%;
+}
+.client {
+  text-align: center;
+}
+.tweets {
+  padding: 10%;
+  display: flex;
+}
+.pic {
+  border-radius: 50%;
+  max-width: 60%;
+  margin-left: 20%;
+}
+.pics4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.four {
+  max-width: 100%;
+}
+.ending {
+  display: grid;
+  text-align: center;
+  background: rgb(135, 208, 233);
+}
+.lf {
+  display: flex;
+  margin-left: 20%;
+  width: 60%;
+  justify-content: space-around;
+}
+.ic {
+  display: flex;
+  width: 45%;
+  margin-left: 27.5%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 450px) {
+  .inorder {
+    flex-direction: column;
+  }
+  .reorder {
+    flex-direction: column-reverse;
+  }
+  #picup {
+    margin: 15% 5%;
+  }
+  .im {
+    max-width: 100%;
+  }
+  .graphic {
+    max-width: 100%;
+  }
+  .tweets {
+    flex-direction: column;
+  }
+  .four {
+    max-width: 25%;
+  }
+  .pics4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* border: solid 2px red; */
+  }
+  .four {
+    max-width: 100%;
+  }
+}
