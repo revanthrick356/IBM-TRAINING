@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    min-width: 100wv;
+    min-height: 100vh;
+    background-image: url(src\assets\bg-intro-desktop.png);
+    background-size: 100% 100%;
+    background-color: rgb(233, 115, 115);
+}
+.flex{
+    width: 80%;
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 40px;
+}
+.tbox{
+    color: white;
+    padding: 10% 5%;
+    max-width: 50%;
+
+}
+.fbox{
+    width: 95%;
+}
+.bbox{
+    border-radius : 5%;
+    display: flex;
+    background-color: rgb(85, 27, 139);
+    color: lightskyblue;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+    margin: 2% 0%;
+    min-height: 48px;
+}
+.attention{
+    color: white;
+}
+.form{
+    min-width: 95%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5%;
+}
+small{
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    color: red;
+}
+#ff{
+    margin: 8px;
+    min-width: 95%;
+    min-height: 48px;
+}
+#claim{
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90%;
+    height: 48px;
+    padding: 8px;
+    margin: 10px 5%;
+    background-color: rgb(63, 190, 63);
+    color: white;
+}
+#declaration{
+    margin: 1px 7%;
+    text-align: center;
+    font-size: 12px;
+}
+#terms{
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width : 500px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .box{
+        min-width: 100wv;
+        min-height: 100vh;
+        background-image: url(src\assets\bg-intro-desktop.png);
+        background-size: 100% 100%;
+        background-color: rgb(233, 115, 115);
+    }
+    .flex{
+        width: 80%;
+        display: flex;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1{
+        font-size: 40px;
+    }
+    .tbox{
+        color: white;
+        padding: 10% 5%;
+        max-width: 50%;
+    
+    }
+    .fbox{
+        width: 95%;
+    }
+    .bbox{
+        border-radius : 5%;
+        display: flex;
+        background-color: rgb(85, 27, 139);
+        color: lightskyblue;
+        justify-content: center; 
+        align-items: center;
+        padding: 5px;
+        margin: 2% 0%;
+        min-height: 48px;
+    }
+    .attention{
+        color: white;
+    }
+    .form{
+        min-width: 95%;
+        background-color: white;
+        padding: 5%;
+        border-radius: 5%;
+    }
+    small{
+        display: flex;
+        justify-content: right;
+        margin-right: 5%;
+        color: red;
+    }
+    #ff{
+        margin: 8px;
+        min-width: 95%;
+        min-height: 48px;
+    }
+    #claim{
+        border-radius: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 90%;
+        height: 48px;
+        padding: 8px;
+        margin: 10px 5%;
+        background-color: rgb(63, 190, 63);
+        color: white;
+    }
+    #declaration{
+        margin: 1px 7%;
+        text-align: center;
+        font-size: 12px;
+    }
+    #terms{
+        text-decoration: none;
+        color: red;
+    }
+
+}
